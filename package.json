@@ -1,0 +1,17 @@
+{
+  "name": "tele_bot",
+  "version": "1.0.0",
+  "description": "joybot is a learning bot",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joyo Nurdiansyah",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
